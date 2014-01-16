@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>brunosato.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.samplebruno.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -40,6 +40,17 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>FacebookAppID</key>
+	<string>188674204674885</string>
+	<key>FacebookDisplayName</key>
+	<string>Sample Bruno</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>fb188674204674885</string>
+		</dict>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

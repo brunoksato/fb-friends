@@ -20,38 +20,7 @@
 		5730367318882D3500029216 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730365218882D3500029216 /* UIKit.framework */; };
 		5730367B18882D3500029216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5730367918882D3500029216 /* InfoPlist.strings */; };
 		5730367D18882D3500029216 /* fb_friendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730367C18882D3500029216 /* fb_friendsTests.m */; };
-		5730368918887BD500029216 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730368818887BD400029216 /* QuartzCore.framework */; };
-		5730368B18887BDE00029216 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730368A18887BDE00029216 /* MessageUI.framework */; };
-		5730368D18887BE300029216 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730368C18887BE300029216 /* ImageIO.framework */; };
-		5730369518887C2400029216 /* FBGTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730369018887C2400029216 /* FBGTimelineCell.m */; };
-		5730369618887C2400029216 /* FBGTimelinePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730369218887C2400029216 /* FBGTimelinePhotoView.m */; };
-		5730369718887C2400029216 /* UIView+viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730369418887C2400029216 /* UIView+viewController.m */; };
-		5730369E18887C5100029216 /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5730369A18887C5100029216 /* MWPhotoBrowser.bundle */; };
-		573036B118887C8000029216 /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036A518887C8000029216 /* MWCaptionView.m */; };
-		573036B218887C8000029216 /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036A718887C8000029216 /* MWPhoto.m */; };
-		573036B318887C8000029216 /* MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036A918887C8000029216 /* MWPhotoBrowser.m */; };
-		573036B418887C8000029216 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036AC18887C8000029216 /* MWTapDetectingImageView.m */; };
-		573036B518887C8000029216 /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036AE18887C8000029216 /* MWTapDetectingView.m */; };
-		573036B618887C8000029216 /* MWZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036B018887C8000029216 /* MWZoomingScrollView.m */; };
-		573036BC18887CB700029216 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036BA18887CB700029216 /* MBProgressHUD.m */; };
-		573036BD18887CB700029216 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 573036BB18887CB700029216 /* README.mdown */; };
-		573036D218887CCB00029216 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 573036BE18887CCB00029216 /* LICENSE */; };
-		573036D318887CCB00029216 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 573036BF18887CCB00029216 /* README.md */; };
-		573036D418887CCB00029216 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036C118887CCB00029216 /* SDImageCache.m */; };
-		573036D518887CCB00029216 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036C518887CCB00029216 /* SDWebImageDecoder.m */; };
-		573036D618887CCB00029216 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036C718887CCB00029216 /* SDWebImageDownloader.m */; };
-		573036D718887CCB00029216 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036CA18887CCB00029216 /* SDWebImageManager.m */; };
-		573036D818887CCB00029216 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036CD18887CCB00029216 /* SDWebImagePrefetcher.m */; };
-		573036D918887CCB00029216 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036CF18887CCB00029216 /* UIButton+WebCache.m */; };
-		573036DA18887CCB00029216 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036D118887CCB00029216 /* UIImageView+WebCache.m */; };
-		573036DF18887D8700029216 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573036DE18887D8700029216 /* TimelineViewController.m */; };
-		573036E618887EDD00029216 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573036E018887EDC00029216 /* 0.jpg */; };
-		573036E718887EDD00029216 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573036E118887EDC00029216 /* 1.jpg */; };
-		573036E818887EDD00029216 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573036E218887EDC00029216 /* 2.jpg */; };
-		573036E918887EDD00029216 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573036E318887EDC00029216 /* 3.jpg */; };
-		573036EA18887EDD00029216 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573036E418887EDC00029216 /* 4.jpg */; };
-		573036EB18887EDD00029216 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573036E518887EDC00029216 /* 5.jpg */; };
-		573036ED18887F6700029216 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 573036EC18887F6700029216 /* 6.jpg */; };
+		57303807188891B500029216 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57303806188891B500029216 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,13 +30,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5730364A18882D3500029216;
 			remoteInfo = "fb-friends";
-		};
-		573036A018887C5100029216 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5730369B18887C5100029216 /* MWPhotoBrowser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4C6F96C414AF704100F8389A;
-			remoteInfo = MWPhotoBrowser;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -89,63 +51,7 @@
 		5730367818882D3500029216 /* fb-friendsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fb-friendsTests-Info.plist"; sourceTree = "<group>"; };
 		5730367A18882D3500029216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5730367C18882D3500029216 /* fb_friendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fb_friendsTests.m; sourceTree = "<group>"; };
-		5730368818887BD400029216 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		5730368A18887BDE00029216 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		5730368C18887BE300029216 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		5730368F18887C2400029216 /* FBGTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBGTimelineCell.h; path = "../../../FB-Gallery/FB Gallery/FBGTimelineCell.h"; sourceTree = "<group>"; };
-		5730369018887C2400029216 /* FBGTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBGTimelineCell.m; path = "../../../FB-Gallery/FB Gallery/FBGTimelineCell.m"; sourceTree = "<group>"; };
-		5730369118887C2400029216 /* FBGTimelinePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBGTimelinePhotoView.h; path = "../../../FB-Gallery/FB Gallery/FBGTimelinePhotoView.h"; sourceTree = "<group>"; };
-		5730369218887C2400029216 /* FBGTimelinePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBGTimelinePhotoView.m; path = "../../../FB-Gallery/FB Gallery/FBGTimelinePhotoView.m"; sourceTree = "<group>"; };
-		5730369318887C2400029216 /* UIView+viewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+viewController.h"; path = "../../../FB-Gallery/FB Gallery/UIView+viewController.h"; sourceTree = "<group>"; };
-		5730369418887C2400029216 /* UIView+viewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+viewController.m"; path = "../../../FB-Gallery/FB Gallery/UIView+viewController.m"; sourceTree = "<group>"; };
-		5730369918887C5100029216 /* MWPhotoBrowser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MWPhotoBrowser-Prefix.pch"; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/MWPhotoBrowser-Prefix.pch"; sourceTree = "<group>"; };
-		5730369A18887C5100029216 /* MWPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MWPhotoBrowser.bundle; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/MWPhotoBrowser.bundle"; sourceTree = "<group>"; };
-		5730369B18887C5100029216 /* MWPhotoBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MWPhotoBrowser.xcodeproj; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/MWPhotoBrowser.xcodeproj"; sourceTree = "<group>"; };
-		573036A418887C8000029216 /* MWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWCaptionView.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWCaptionView.h"; sourceTree = "<group>"; };
-		573036A518887C8000029216 /* MWCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWCaptionView.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWCaptionView.m"; sourceTree = "<group>"; };
-		573036A618887C8000029216 /* MWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWPhoto.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWPhoto.h"; sourceTree = "<group>"; };
-		573036A718887C8000029216 /* MWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWPhoto.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWPhoto.m"; sourceTree = "<group>"; };
-		573036A818887C8000029216 /* MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWPhotoBrowser.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWPhotoBrowser.h"; sourceTree = "<group>"; };
-		573036A918887C8000029216 /* MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWPhotoBrowser.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWPhotoBrowser.m"; sourceTree = "<group>"; };
-		573036AA18887C8000029216 /* MWPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWPhotoProtocol.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWPhotoProtocol.h"; sourceTree = "<group>"; };
-		573036AB18887C8000029216 /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWTapDetectingImageView.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWTapDetectingImageView.h"; sourceTree = "<group>"; };
-		573036AC18887C8000029216 /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWTapDetectingImageView.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWTapDetectingImageView.m"; sourceTree = "<group>"; };
-		573036AD18887C8000029216 /* MWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWTapDetectingView.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWTapDetectingView.h"; sourceTree = "<group>"; };
-		573036AE18887C8000029216 /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWTapDetectingView.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWTapDetectingView.m"; sourceTree = "<group>"; };
-		573036AF18887C8000029216 /* MWZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWZoomingScrollView.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWZoomingScrollView.h"; sourceTree = "<group>"; };
-		573036B018887C8000029216 /* MWZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWZoomingScrollView.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Classes/MWZoomingScrollView.m"; sourceTree = "<group>"; };
-		573036B918887CB700029216 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/MBProgressHUD/MBProgressHUD.h"; sourceTree = "<group>"; };
-		573036BA18887CB700029216 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/MBProgressHUD/MBProgressHUD.m"; sourceTree = "<group>"; };
-		573036BB18887CB700029216 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.mdown; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/MBProgressHUD/README.mdown"; sourceTree = "<group>"; };
-		573036BE18887CCB00029216 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/LICENSE"; sourceTree = "<group>"; };
-		573036BF18887CCB00029216 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/README.md"; sourceTree = "<group>"; };
-		573036C018887CCB00029216 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDImageCache.h"; sourceTree = "<group>"; };
-		573036C118887CCB00029216 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDImageCache.m"; sourceTree = "<group>"; };
-		573036C218887CCB00029216 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDelegate.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDImageCacheDelegate.h"; sourceTree = "<group>"; };
-		573036C318887CCB00029216 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageCompat.h"; sourceTree = "<group>"; };
-		573036C418887CCB00029216 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageDecoder.h"; sourceTree = "<group>"; };
-		573036C518887CCB00029216 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageDecoder.m"; sourceTree = "<group>"; };
-		573036C618887CCB00029216 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageDownloader.h"; sourceTree = "<group>"; };
-		573036C718887CCB00029216 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageDownloader.m"; sourceTree = "<group>"; };
-		573036C818887CCB00029216 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDelegate.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageDownloaderDelegate.h"; sourceTree = "<group>"; };
-		573036C918887CCB00029216 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageManager.h"; sourceTree = "<group>"; };
-		573036CA18887CCB00029216 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageManager.m"; sourceTree = "<group>"; };
-		573036CB18887CCB00029216 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageManagerDelegate.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImageManagerDelegate.h"; sourceTree = "<group>"; };
-		573036CC18887CCB00029216 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImagePrefetcher.h"; sourceTree = "<group>"; };
-		573036CD18887CCB00029216 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/SDWebImagePrefetcher.m"; sourceTree = "<group>"; };
-		573036CE18887CCB00029216 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
-		573036CF18887CCB00029216 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
-		573036D018887CCB00029216 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		573036D118887CCB00029216 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "../../../FB-Gallery/FB Gallery/MWPhotoBrowser/Libraries/SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		573036DD18887D8700029216 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
-		573036DE18887D8700029216 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
-		573036E018887EDC00029216 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.jpg; path = "../../../FB-Gallery/Resource/images/0.jpg"; sourceTree = "<group>"; };
-		573036E118887EDC00029216 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = "../../../FB-Gallery/Resource/images/1.jpg"; sourceTree = "<group>"; };
-		573036E218887EDC00029216 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = "../../../FB-Gallery/Resource/images/2.jpg"; sourceTree = "<group>"; };
-		573036E318887EDC00029216 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = "../../../FB-Gallery/Resource/images/3.jpg"; sourceTree = "<group>"; };
-		573036E418887EDC00029216 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = "../../../FB-Gallery/Resource/images/4.jpg"; sourceTree = "<group>"; };
-		573036E518887EDC00029216 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = "../../../FB-Gallery/Resource/images/5.jpg"; sourceTree = "<group>"; };
-		573036EC18887F6700029216 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = ../../../../6.jpg; sourceTree = "<group>"; };
+		57303806188891B500029216 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5730368918887BD500029216 /* QuartzCore.framework in Frameworks */,
-				5730368B18887BDE00029216 /* MessageUI.framework in Frameworks */,
-				5730368D18887BE300029216 /* ImageIO.framework in Frameworks */,
 				5730365118882D3500029216 /* CoreGraphics.framework in Frameworks */,
+				57303807188891B500029216 /* FacebookSDK.framework in Frameworks */,
 				5730365318882D3500029216 /* UIKit.framework in Frameworks */,
 				5730364F18882D3500029216 /* Foundation.framework in Frameworks */,
 			);
@@ -178,9 +82,6 @@
 		5730364218882D3500029216 = {
 			isa = PBXGroup;
 			children = (
-				5730368C18887BE300029216 /* ImageIO.framework */,
-				5730368A18887BDE00029216 /* MessageUI.framework */,
-				5730368818887BD400029216 /* QuartzCore.framework */,
 				5730365418882D3500029216 /* fb-friends */,
 				5730367618882D3500029216 /* fb-friendsTests */,
 				5730364D18882D3500029216 /* Frameworks */,
@@ -200,6 +101,7 @@
 		5730364D18882D3500029216 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57303806188891B500029216 /* FacebookSDK.framework */,
 				5730364E18882D3500029216 /* Foundation.framework */,
 				5730365018882D3500029216 /* CoreGraphics.framework */,
 				5730365218882D3500029216 /* UIKit.framework */,
@@ -211,15 +113,11 @@
 		5730365418882D3500029216 /* fb-friends */ = {
 			isa = PBXGroup;
 			children = (
-				573036DB18887CF600029216 /* Resource */,
-				5730368E18887C0C00029216 /* FB Gallery */,
 				5730365D18882D3500029216 /* AppDelegate.h */,
 				5730365E18882D3500029216 /* AppDelegate.m */,
 				5730366018882D3500029216 /* Main.storyboard */,
 				5730366918882D3500029216 /* Images.xcassets */,
 				5730365518882D3500029216 /* Supporting Files */,
-				573036DD18887D8700029216 /* TimelineViewController.h */,
-				573036DE18887D8700029216 /* TimelineViewController.m */,
 			);
 			path = "fb-friends";
 			sourceTree = "<group>";
@@ -251,128 +149,6 @@
 				5730367918882D3500029216 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5730368E18887C0C00029216 /* FB Gallery */ = {
-			isa = PBXGroup;
-			children = (
-				5730369818887C3000029216 /* MWPhotoBrowser */,
-				5730368F18887C2400029216 /* FBGTimelineCell.h */,
-				5730369018887C2400029216 /* FBGTimelineCell.m */,
-				5730369118887C2400029216 /* FBGTimelinePhotoView.h */,
-				5730369218887C2400029216 /* FBGTimelinePhotoView.m */,
-				5730369318887C2400029216 /* UIView+viewController.h */,
-				5730369418887C2400029216 /* UIView+viewController.m */,
-			);
-			name = "FB Gallery";
-			sourceTree = "<group>";
-		};
-		5730369818887C3000029216 /* MWPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				573036A318887C6200029216 /* Libraries */,
-				573036A218887C5900029216 /* Classes */,
-				5730369918887C5100029216 /* MWPhotoBrowser-Prefix.pch */,
-				5730369A18887C5100029216 /* MWPhotoBrowser.bundle */,
-				5730369B18887C5100029216 /* MWPhotoBrowser.xcodeproj */,
-			);
-			name = MWPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		5730369C18887C5100029216 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				573036A118887C5100029216 /* libMWPhotoBrowser.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		573036A218887C5900029216 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				573036A418887C8000029216 /* MWCaptionView.h */,
-				573036A518887C8000029216 /* MWCaptionView.m */,
-				573036A618887C8000029216 /* MWPhoto.h */,
-				573036A718887C8000029216 /* MWPhoto.m */,
-				573036A818887C8000029216 /* MWPhotoBrowser.h */,
-				573036A918887C8000029216 /* MWPhotoBrowser.m */,
-				573036AA18887C8000029216 /* MWPhotoProtocol.h */,
-				573036AB18887C8000029216 /* MWTapDetectingImageView.h */,
-				573036AC18887C8000029216 /* MWTapDetectingImageView.m */,
-				573036AD18887C8000029216 /* MWTapDetectingView.h */,
-				573036AE18887C8000029216 /* MWTapDetectingView.m */,
-				573036AF18887C8000029216 /* MWZoomingScrollView.h */,
-				573036B018887C8000029216 /* MWZoomingScrollView.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		573036A318887C6200029216 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				573036B818887CAC00029216 /* SDWebImage */,
-				573036B718887C9B00029216 /* MBProgressHUD */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		573036B718887C9B00029216 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				573036B918887CB700029216 /* MBProgressHUD.h */,
-				573036BA18887CB700029216 /* MBProgressHUD.m */,
-				573036BB18887CB700029216 /* README.mdown */,
-			);
-			name = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		573036B818887CAC00029216 /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				573036BE18887CCB00029216 /* LICENSE */,
-				573036BF18887CCB00029216 /* README.md */,
-				573036C018887CCB00029216 /* SDImageCache.h */,
-				573036C118887CCB00029216 /* SDImageCache.m */,
-				573036C218887CCB00029216 /* SDImageCacheDelegate.h */,
-				573036C318887CCB00029216 /* SDWebImageCompat.h */,
-				573036C418887CCB00029216 /* SDWebImageDecoder.h */,
-				573036C518887CCB00029216 /* SDWebImageDecoder.m */,
-				573036C618887CCB00029216 /* SDWebImageDownloader.h */,
-				573036C718887CCB00029216 /* SDWebImageDownloader.m */,
-				573036C818887CCB00029216 /* SDWebImageDownloaderDelegate.h */,
-				573036C918887CCB00029216 /* SDWebImageManager.h */,
-				573036CA18887CCB00029216 /* SDWebImageManager.m */,
-				573036CB18887CCB00029216 /* SDWebImageManagerDelegate.h */,
-				573036CC18887CCB00029216 /* SDWebImagePrefetcher.h */,
-				573036CD18887CCB00029216 /* SDWebImagePrefetcher.m */,
-				573036CE18887CCB00029216 /* UIButton+WebCache.h */,
-				573036CF18887CCB00029216 /* UIButton+WebCache.m */,
-				573036D018887CCB00029216 /* UIImageView+WebCache.h */,
-				573036D118887CCB00029216 /* UIImageView+WebCache.m */,
-			);
-			name = SDWebImage;
-			sourceTree = "<group>";
-		};
-		573036DB18887CF600029216 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				573036DC18887CFE00029216 /* images */,
-			);
-			name = Resource;
-			sourceTree = "<group>";
-		};
-		573036DC18887CFE00029216 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				573036EC18887F6700029216 /* 6.jpg */,
-				573036E018887EDC00029216 /* 0.jpg */,
-				573036E118887EDC00029216 /* 1.jpg */,
-				573036E218887EDC00029216 /* 2.jpg */,
-				573036E318887EDC00029216 /* 3.jpg */,
-				573036E418887EDC00029216 /* 4.jpg */,
-				573036E518887EDC00029216 /* 5.jpg */,
-			);
-			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,12 +214,6 @@
 			mainGroup = 5730364218882D3500029216;
 			productRefGroup = 5730364C18882D3500029216 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 5730369C18887C5100029216 /* Products */;
-					ProjectRef = 5730369B18887C5100029216 /* MWPhotoBrowser.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				5730364A18882D3500029216 /* fb-friends */,
@@ -452,35 +222,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		573036A118887C5100029216 /* libMWPhotoBrowser.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMWPhotoBrowser.a;
-			remoteRef = 573036A018887C5100029216 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		5730364918882D3500029216 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573036ED18887F6700029216 /* 6.jpg in Resources */,
-				573036EA18887EDD00029216 /* 4.jpg in Resources */,
-				573036E918887EDD00029216 /* 3.jpg in Resources */,
-				573036D218887CCB00029216 /* LICENSE in Resources */,
 				5730366A18882D3500029216 /* Images.xcassets in Resources */,
-				573036E818887EDD00029216 /* 2.jpg in Resources */,
 				5730365918882D3500029216 /* InfoPlist.strings in Resources */,
-				573036D318887CCB00029216 /* README.md in Resources */,
-				573036EB18887EDD00029216 /* 5.jpg in Resources */,
-				573036E618887EDD00029216 /* 0.jpg in Resources */,
 				5730366218882D3500029216 /* Main.storyboard in Resources */,
-				573036E718887EDD00029216 /* 1.jpg in Resources */,
-				5730369E18887C5100029216 /* MWPhotoBrowser.bundle in Resources */,
-				573036BD18887CB700029216 /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,26 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5730369618887C2400029216 /* FBGTimelinePhotoView.m in Sources */,
-				5730369718887C2400029216 /* UIView+viewController.m in Sources */,
-				573036B518887C8000029216 /* MWTapDetectingView.m in Sources */,
-				573036D818887CCB00029216 /* SDWebImagePrefetcher.m in Sources */,
-				573036D718887CCB00029216 /* SDWebImageManager.m in Sources */,
 				5730365F18882D3500029216 /* AppDelegate.m in Sources */,
-				573036D418887CCB00029216 /* SDImageCache.m in Sources */,
-				573036B318887C8000029216 /* MWPhotoBrowser.m in Sources */,
-				573036B418887C8000029216 /* MWTapDetectingImageView.m in Sources */,
-				573036DF18887D8700029216 /* TimelineViewController.m in Sources */,
-				5730369518887C2400029216 /* FBGTimelineCell.m in Sources */,
-				573036DA18887CCB00029216 /* UIImageView+WebCache.m in Sources */,
-				573036B618887C8000029216 /* MWZoomingScrollView.m in Sources */,
 				5730365B18882D3500029216 /* main.m in Sources */,
-				573036D618887CCB00029216 /* SDWebImageDownloader.m in Sources */,
-				573036D518887CCB00029216 /* SDWebImageDecoder.m in Sources */,
-				573036B218887C8000029216 /* MWPhoto.m in Sources */,
-				573036D918887CCB00029216 /* UIButton+WebCache.m in Sources */,
-				573036B118887C8000029216 /* MWCaptionView.m in Sources */,
-				573036BC18887CB700029216 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +376,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/BrunoKSato/Desktop/GitHub/fb-friends/fb-friends",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fb-friends/fb-friends-Prefix.pch";
 				INFOPLIST_FILE = "fb-friends/fb-friends-Info.plist";
@@ -658,6 +393,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/BrunoKSato/Desktop/GitHub/fb-friends/fb-friends",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fb-friends/fb-friends-Prefix.pch";
 				INFOPLIST_FILE = "fb-friends/fb-friends-Info.plist";
