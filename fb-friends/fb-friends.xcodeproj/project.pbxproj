@@ -26,6 +26,7 @@
 		57303817188898F100029216 /* FaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57303816188898F100029216 /* FaceViewController.m */; };
 		5730381A1888998200029216 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573038191888998200029216 /* LoginViewController.m */; };
 		5730381C18889B8000029216 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730381B18889B8000029216 /* FacebookSDK.framework */; };
+		5730381F1888AD9D00029216 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730381E1888AD9D00029216 /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		573038181888998200029216 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		573038191888998200029216 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		5730381B18889B8000029216 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		5730381D1888AD9C00029216 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		5730381E1888AD9D00029216 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				57303816188898F100029216 /* FaceViewController.m */,
 				573038181888998200029216 /* LoginViewController.h */,
 				573038191888998200029216 /* LoginViewController.m */,
+				5730381D1888AD9C00029216 /* NewViewController.h */,
+				5730381E1888AD9D00029216 /* NewViewController.m */,
 			);
 			path = "fb-friends";
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				5730381A1888998200029216 /* LoginViewController.m in Sources */,
 				5730380E1888988B00029216 /* TimelineViewController.m in Sources */,
 				57303814188898C000029216 /* EditViewController.m in Sources */,
+				5730381F1888AD9D00029216 /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
