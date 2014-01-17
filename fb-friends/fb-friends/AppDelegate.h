@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
+
+@class LoginViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) LoginViewController *rootViewController;
 @property (strong, nonatomic) UIWindow *window;
 
 @end

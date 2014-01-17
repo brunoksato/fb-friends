@@ -20,7 +20,12 @@
 		5730367318882D3500029216 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730365218882D3500029216 /* UIKit.framework */; };
 		5730367B18882D3500029216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5730367918882D3500029216 /* InfoPlist.strings */; };
 		5730367D18882D3500029216 /* fb_friendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730367C18882D3500029216 /* fb_friendsTests.m */; };
-		57303807188891B500029216 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57303806188891B500029216 /* FacebookSDK.framework */; };
+		5730380E1888988B00029216 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5730380D1888988B00029216 /* TimelineViewController.m */; };
+		57303811188898AB00029216 /* StalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57303810188898AB00029216 /* StalkViewController.m */; };
+		57303814188898C000029216 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57303813188898C000029216 /* EditViewController.m */; };
+		57303817188898F100029216 /* FaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57303816188898F100029216 /* FaceViewController.m */; };
+		5730381A1888998200029216 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573038191888998200029216 /* LoginViewController.m */; };
+		5730381C18889B8000029216 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730381B18889B8000029216 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +56,17 @@
 		5730367818882D3500029216 /* fb-friendsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fb-friendsTests-Info.plist"; sourceTree = "<group>"; };
 		5730367A18882D3500029216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5730367C18882D3500029216 /* fb_friendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fb_friendsTests.m; sourceTree = "<group>"; };
-		57303806188891B500029216 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		5730380C1888988B00029216 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		5730380D1888988B00029216 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		5730380F188898AB00029216 /* StalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StalkViewController.h; sourceTree = "<group>"; };
+		57303810188898AB00029216 /* StalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StalkViewController.m; sourceTree = "<group>"; };
+		57303812188898C000029216 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		57303813188898C000029216 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		57303815188898F100029216 /* FaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceViewController.h; sourceTree = "<group>"; };
+		57303816188898F100029216 /* FaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceViewController.m; sourceTree = "<group>"; };
+		573038181888998200029216 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		573038191888998200029216 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5730381B18889B8000029216 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5730365118882D3500029216 /* CoreGraphics.framework in Frameworks */,
-				57303807188891B500029216 /* FacebookSDK.framework in Frameworks */,
+				5730381C18889B8000029216 /* FacebookSDK.framework in Frameworks */,
 				5730365318882D3500029216 /* UIKit.framework in Frameworks */,
 				5730364F18882D3500029216 /* Foundation.framework in Frameworks */,
 			);
@@ -101,7 +116,7 @@
 		5730364D18882D3500029216 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				57303806188891B500029216 /* FacebookSDK.framework */,
+				5730381B18889B8000029216 /* FacebookSDK.framework */,
 				5730364E18882D3500029216 /* Foundation.framework */,
 				5730365018882D3500029216 /* CoreGraphics.framework */,
 				5730365218882D3500029216 /* UIKit.framework */,
@@ -118,6 +133,16 @@
 				5730366018882D3500029216 /* Main.storyboard */,
 				5730366918882D3500029216 /* Images.xcassets */,
 				5730365518882D3500029216 /* Supporting Files */,
+				5730380C1888988B00029216 /* TimelineViewController.h */,
+				5730380D1888988B00029216 /* TimelineViewController.m */,
+				5730380F188898AB00029216 /* StalkViewController.h */,
+				57303810188898AB00029216 /* StalkViewController.m */,
+				57303812188898C000029216 /* EditViewController.h */,
+				57303813188898C000029216 /* EditViewController.m */,
+				57303815188898F100029216 /* FaceViewController.h */,
+				57303816188898F100029216 /* FaceViewController.m */,
+				573038181888998200029216 /* LoginViewController.h */,
+				573038191888998200029216 /* LoginViewController.m */,
 			);
 			path = "fb-friends";
 			sourceTree = "<group>";
@@ -250,6 +275,11 @@
 			files = (
 				5730365F18882D3500029216 /* AppDelegate.m in Sources */,
 				5730365B18882D3500029216 /* main.m in Sources */,
+				57303811188898AB00029216 /* StalkViewController.m in Sources */,
+				57303817188898F100029216 /* FaceViewController.m in Sources */,
+				5730381A1888998200029216 /* LoginViewController.m in Sources */,
+				5730380E1888988B00029216 /* TimelineViewController.m in Sources */,
+				57303814188898C000029216 /* EditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +409,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/BrunoKSato/Desktop/GitHub/fb-friends/fb-friends",
+					/Users/BrunoKSato/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fb-friends/fb-friends-Prefix.pch";
@@ -396,6 +427,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/BrunoKSato/Desktop/GitHub/fb-friends/fb-friends",
+					/Users/BrunoKSato/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fb-friends/fb-friends-Prefix.pch";
